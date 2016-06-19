@@ -1,0 +1,37 @@
+---
+layout: post
+title:  "This is my first test"
+date:   2016-06-19 03:07:04 +0100
+categories: test
+---
+This is my first try at making a post.
+I will be lazy and mostly copy from jekyll automated first post.
+
+So here is a code snippet with the (powerful)tool that jekyll says to support:
+(but now in a language that I actually know):
+
+{% highlight java %}
+public static void main(String[] args){
+    //Start with the classic
+    System.out.println("Hello World of WebDeveloping and Jekyll! #hosted by github");
+    //End with java 8 Goodness
+    Arrays.asList(args).forEach(System.out::println);
+}
+{% endhighlight %}
+
+If you have any questions, I bet I have even more for now...
+
+**PS:** Before commiting I checked the page, I have to admit the code looks pretty cool... so let's check some cpp
+
+{% highlight cpp %}
+#include <iostream>
+int main(){
+    std::cout << "Hello World of powerful code snippet tools" << std::endl;
+    /* Comment to say that I don't know much more of cpp... I could show of
+     *  some pointer arithmetic though... nah... too much work... and besides
+     *  mine isn't even that good...
+     */
+    return 0;
+}
+
+{% endhighlight %}
